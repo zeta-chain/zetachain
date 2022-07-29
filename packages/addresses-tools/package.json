@@ -1,7 +1,8 @@
 {
-  "name": "@zetachain/addresses",
-  "version": "0.0.3",
+  "name": "@zetachain/addresses-tools",
+  "version": "0.0.1",
   "license": "MIT",
+  "private": true,
   "author": "zetachain",
   "publishConfig": {
     "access": "public",
@@ -10,5 +11,8 @@
   "main": "src/index.ts",
   "scripts": {
     "tsc:watch": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "@zetachain/addresses": "workspace:^"
   }
 }
