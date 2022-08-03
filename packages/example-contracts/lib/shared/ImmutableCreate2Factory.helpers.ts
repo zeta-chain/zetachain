@@ -1,5 +1,4 @@
 import { Provider, TransactionReceipt } from "@ethersproject/providers";
-import assert from "assert";
 import { ethers, Signer } from "ethers";
 
 import { ImmutableCreate2Factory__factory } from "../../typechain-types";
